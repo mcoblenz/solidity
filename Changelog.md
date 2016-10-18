@@ -3,6 +3,7 @@
 Features:
  * Code generator: Inject the Swarm hash of a metadata file into the bytecode.
  * Optimizer: Some dead code elimination.
+ * Type checker: Allow multiple events of the same name (but with different arities or argument types)
 
 Bugfixes:
  * Type checker: string literals that are not valid UTF-8 cannot be converted to string type
