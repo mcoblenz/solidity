@@ -10,6 +10,7 @@ Bugfixes:
  * Code generator: throw if calling the identity precompile failed during memory (array) copying.
  * Type checker: string literals that are not valid UTF-8 cannot be converted to string type
  * Code generator: any non-zero value given as a boolean argument is now converted into 1.
+ * Type checker, code generator: enable access to events of base contracts' names.
 
 ### 0.4.6 (2016-11-22)
 
